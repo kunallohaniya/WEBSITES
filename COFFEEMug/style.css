@@ -1,0 +1,67 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper{
+  height:100vh;
+  width: 100%;
+  background-color: rgb(220, 194, 159);
+  padding:10%;
+  
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  height: 310px;
+  width: 1000px;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#text{
+  height: 310px;
+  width:500px;
+  font-family:'Courier New', Courier, monospace;
+  background-color: white;
+}
+
+.click{
+  width: 400px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:green;
+  background-size:contain;
+  border-radius: 10px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.click:hover{
+  background-color:darkgreen;
+}
+
+.amount{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sideamount{
+  color: black;
+  font-size: small;
+}
+
+#mug{
+  object-fit: cover;
+  height: 310px;
+  width:500px;
+}
+
+.element{
+  justify-content: center;
+  align-items: center;
+}
